@@ -1,0 +1,6 @@
+{
+  "name": "Fiba Cloud",
+  "description": "Backend-as-a-Service Developer Console for managing projects, authentication, document databases, cloud storage, API keys, SDKs, and 100+ security controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

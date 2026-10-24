@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "2.4.0",
+  "engine": "FLAME_CLOUD Standalone Backend Admin File",
+  "hostingDnsProvider": "Cloudflare Global DNS (*.fiba.com)",
+  "customDomainApiToken": "cf_live_token_fiba_wildcard_dns_99812",
+  "wildcardDnsRouting": "*.fiba.com",
+  "phpBackendModules": [
+    "backend/db.php",
+    "backend/auth.php",
+    "backend/upload.php",
+    "backend/schema.sql"
+  ],
+  "frontendUiModules": [
+    "frontend/index.html",
+    "frontend/style.css",
+    "frontend/script.js"
+  ],
+  "sharedConfigFiles": [
+    "frontend/config.json",
+    "backend/config.json"
+  ]
+}

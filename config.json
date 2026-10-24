@@ -1,0 +1,27 @@
+{
+  "platform": "FLAME_CLOUD (FIBA — Future Integration & Backup Architecture)",
+  "version": "2.4.0",
+  "sharedConfigNote": "This shared configuration file is copied in both frontend/config.json and backend/config.json",
+  "frontend": {
+    "entryFile": "frontend/index.html",
+    "stylesheet": "frontend/style.css",
+    "script": "frontend/script.js"
+  },
+  "backend": {
+    "databaseModule": "backend/db.php",
+    "authEndpoint": "backend/auth.php",
+    "uploadEndpoint": "backend/upload.php",
+    "nodeServer": "backend/server.js",
+    "sqlSchema": "backend/schema.sql",
+    "adminFile": "backend/admin_file.json",
+    "mysqlDatabaseName": "fiba_cloud_db",
+    "uploadsDirectory": "backend/uploads/"
+  },
+  "defaults": {
+    "defaultStorageLimitGb": 5,
+    "defaultStorageLimitBytes": 5368709120,
+    "maxSingleUploadSizeMb": 50,
+    "defaultProjectLimit": 2,
+    "wildcardCustomDomain": "*.fiba.com"
+  }
+}
